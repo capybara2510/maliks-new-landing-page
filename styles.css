@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.first-section{
+    background-color: burlywood;
+}
+
+#header-logo{
+    font-size: 24px;
+    color: crimson;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-link{
+    font-size: 18px;
+    color: crimson;
+    margin: 10px;
+}
+
+.nav-bar-left, .nav-bar-right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+h1{
+    font-size: 48px;
+    color:crimson;
+    font-weight: bolder;
+}
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+    width: 50%;
+}
+
+.sign-up-first-section{
+    color: crimson;
+    background-color: burlywood;
+    font-size: 17px;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+img{
+    margin: 50px;
+}
+
+.p-first{
+    line-height: 30px;
+    color: black;
+    font-size: 18px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: crimson;
+    text-align: center;
+}
+
+.row-of-blue-divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 40px;
+    align-items: center;
+}
+
+.box-blue{
+    border: 6px solid crimson;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p-second{
+    text-align: center;
+    font-size: 18px;
+    color: crimson;
+}
+
+.third-section{
+    background-color: brown;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.p-third{
+    font-size: 36px;
+}
+
+#p-div{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.last-div{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container{
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    width: 75%;
+    height: 40%;
+}
+
+.left{
+    width: 80%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+h4{
+    font-size: 24px;
+    color: black;
+}
+
+.last-p{
+    font-size: 18px;
+    color: black;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn-last-div{
+    color: crimson;
+    background-color: burlywood;
+    font-size: 17px;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    color: black;
+    height: 50px;
+    font-size: 18px;
+
+
+}
+
+
